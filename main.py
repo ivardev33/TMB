@@ -34,6 +34,6 @@ def calcular_tmb ():
 
         resultado= 66.47 +(13.75*kg)+(5.003*altura)-(6.755*edad)
 
-        return resultado
+        print("Tus calorias por dia serian: " ,resultado)
     
 calcular_tmb()    
