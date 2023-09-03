@@ -24,7 +24,7 @@ def calcular_tmb ():
     
 
     
-    if genero == "hombre" or genero == "mujer":
+    if genero == "hombre" :
 
         kg=   int((input("itroduce tu peso : ")))
 
@@ -32,8 +32,28 @@ def calcular_tmb ():
 
         edad= int((input("introduce tu edad :")))
 
-        resultado= 66.47 +(13.75*kg)+(5.003*altura)-(6.755*edad)
+        resultado= (10*kg)+(6.25*altura)-(5*edad)+5
 
-        print("Tus calorias por dia serian: " ,resultado)
+        print("Tus calorias por dia como H  serian: " ,resultado)
+
+    if genero == "mujer":
+
+
+
+        kg=   int((input("itroduce tu peso : ")))
+
+        altura= int((input("Introduce tu altura en cm : ")))
+
+        edad= int((input("introduce tu edad :")))
+
+        resultado= (10*kg)+(6.25*altura)-(5*edad)-161
+
+        print("Tus calorias por dia como M serian: " ,resultado)
+        
+    else:
+
+       print( "Sigue las intrucciones")
+        
+
     
 calcular_tmb()    
