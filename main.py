@@ -21,7 +21,7 @@ def calcular_tmb ():
 
     
 
-    
+  #Para hombres  
 
     
     if genero == "hombre" :
@@ -35,6 +35,7 @@ def calcular_tmb ():
         resultado= (10*kg)+(6.25*altura)-(5*edad)+5
 
         print("Tus calorias por dia como H  serian: " ,resultado)
+  #Para mujeres       
 
     if genero == "mujer":
 
