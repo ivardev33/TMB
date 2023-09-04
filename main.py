@@ -17,14 +17,14 @@ print (tmb_hombre, "Calorias por dia")
 
 def calcular_tmb ():
 
-    genero=input(('Eres un hombre o una mujer :?'))
+    genero=input(('Eres un hombre o una mujer? :'))
 
     
 
   #Para hombres  
 
     
-    if genero == "hombre" :
+    if genero == "hombre" or "Hombre":
 
         kg=   int((input("itroduce tu peso : ")))
 
@@ -37,7 +37,7 @@ def calcular_tmb ():
         print("Tus calorias por dia como H  serian: " ,resultado)
   #Para mujeres       
 
-    if genero == "mujer":
+    if genero == "mujer" or "Mujer":
 
 
 
